@@ -1,4 +1,4 @@
-namespace ErrorCollectionPoc;
+namespace ErrorCollectionPoc.Tests;
 
 using System.Linq;
 using Xunit;

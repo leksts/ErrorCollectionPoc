@@ -9,7 +9,7 @@ public class Password : SimpleValueObject<string>
 	{
 	}
 
-	public static Result<Password, ErrorCollection> Create(string value)
+	public static Result<Password, ErrorCollection> Create(string? value)
 	{
 		if (string.IsNullOrWhiteSpace(value))
 		{
